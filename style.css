@@ -1,0 +1,308 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+h1, h2, h3 {
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: #007BFF;
+}
+
+a:hover {
+  color: #0056b3;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul {
+  display: flex;
+  background-color: #007BFF;
+  padding: 10px;
+  margin: 0;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  font-weight: bold;
+  padding: 10px;
+}
+
+nav ul li a:hover {
+  background-color: #0056b3;
+  border-radius: 4px;
+}
+
+/* Hero Section */
+.hero {
+  background-color: #007BFF;
+  color: #fff;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.hero h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+.hero p {
+  font-size: 1.2em;
+  margin: 20px 0;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: #fff;
+  color: #007BFF;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 4px;
+  font-weight: bold;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #0056b3;
+  color: #fff;
+}
+
+/* How It Works Section */
+.how-it-works {
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.how-it-works h2 {
+  margin-bottom: 30px;
+  font-size: 2em;
+}
+
+.steps {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.step {
+  flex: 1;
+  max-width: 250px;
+  margin: 10px;
+}
+
+.step h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.step p {
+  font-size: 1em;
+  color: #555;
+}
+
+/* Dashboard Section */
+.dashboard {
+  padding: 40px 20px;
+  background-color: #fff;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.dashboard h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.user-actions {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+
+.errands-list {
+  list-style: none;
+  padding: 0;
+}
+
+.errands-list li {
+  background-color: #f9f9f9;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 4px;
+  border-left: 4px solid #007BFF;
+}
+
+/* Post Errand Section */
+.post-errand {
+  padding: 40px 20px;
+  background-color: #fff;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.post-errand h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+#errand-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#errand-form label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+#errand-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Errand List Section */
+.errand-list {
+  padding: 40px 20px;
+  background-color: #fff;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.errand-list h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.errands-list li {
+  padding: 15px;
+  background-color: #f9f9f9;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  border-left: 4px solid #007BFF;
+}
+
+.errands-list h3 {
+  margin: 0;
+  font-size: 1.5em;
+  color: #333;
+}
+
+.errands-list p {
+  margin: 10px 0;
+  color: #555;
+}
+
+.errands-list button {
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.errands-list button:hover {
+  background-color: #0056b3;
+}
+
+/* Profile Section */
+.profile {
+  padding: 40px 20px;
+  background-color: #fff;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.profile h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.profile-details p {
+  font-size: 1.1em;
+  margin: 10px 0;
+}
+
+.profile-details strong {
+  color: #007BFF;
+}
+
+.errands-list h3 {
+  font-size: 1.3em;
+  margin-top: 30px;
+}
+
+/* Admin Dashboard Section */
+.admin-dashboard {
+  padding: 40px 20px;
+  background-color: #fff;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.admin-dashboard h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.admin-actions {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+
+.activity-list {
+  list-style: none;
+  padding: 0;
+}
+
+.activity-list li {
+  background-color: #f9f9f9;
+  padding: 15px;
+  margin: 10px 0;
+  border-left: 4px solid #007BFF;
+  border-radius: 4px;
+  text-align: left;
+}
+
+.activity-list p {
+  margin: 5px 0;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
